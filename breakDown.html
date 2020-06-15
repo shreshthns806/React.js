@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <title>
+            Break Down of your first app|React.js
+        </title>
+    </head>
+    <body>
+        <div class = "breakDown">
+            <div class = "partOne">
+                <h1>
+                    Part One
+                </h1>
+                <img src = "ptOne.PNG">
+                <p>
+                    Unlike JavaScript, where we have to include libraries in index.html, in React.js, we include libraries in the file, along with which components of those libraries you want.
+                </p>
+            </div>
+            <div class = "partTwo">
+                <h1>
+                    Part Two
+                </h1>
+                <img src = "ptTwo.PNG">
+                <p>
+                    Here, we create a custom class RedButton, which is a child of class Component. Then 
+                    we use render(){}, which is used to display things on the screen. We then use 
+                    return (return is used to tell render what is to be displayed) followed by Button Tag which has the properties (color and title).
+                </p>
+            </div>
+            <div class = "partThree">
+                <h1>
+                    Part Three
+                </h1>
+                <img src = "ptThree.PNG">
+                <p>
+                    Here we use a pre-defined class called App (App is like function draw for react), which 
+                    is a must to include. This is also a child of Component.
+                </p>
+            </div>
+            <div class = "partFour">
+                <h1>Part Four</h1>
+                <img src = "ptFour.PNG">
+                <p>
+                    We then use View tag (View tag is necessary if we want multiple objects inside return)
+                    , and call our custom class RedButton. Buttons can't be styled in-line, so we gave its 
+                    styling inside View Tag, however this styling is also applied to 
+                    Text tag (as it is inside View), which is used to display Text on the output screen.
+                </p>
+            </div>
+            <div class = "output">
+                <h1>
+                    Output
+                </h1>
+                <a href = "https://snack.expo.io/@shreshthns/my-first-app"><img src = "Output.PNG"></a>
+                
+                <p>This is our output. To go back to the home screen, click <a href="index.html">here</a></p>
+            </div>
+        </div>
+    </body>
+</html>
