@@ -1,0 +1,48 @@
+.header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.breakDown h1 {
+    background-color: aquamarine;
+}
+.breakDown p{
+    color: mediumspringgreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(10,10,30);
+}
+.header h2 {
+    padding-right: 90px;
+    padding-top: 4px;
+}
+.body p{
+    color: white;
+    padding-left: 60px;
+}
+h3{
+    color:black;
+    background-color:cadetblue;
+    
+}
+.snackExpo img{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    filter: blur(4px);
+}
+.snackExpo:hover img{
+    filter: unset;
+}
+.snackExpo:hover h5{
+    filter: blur(4px);
+}
+.snackExpo h5 {
+    position: absolute;
+    top: 60%;
+    left:40%;
+    color: lightpink;
+}
